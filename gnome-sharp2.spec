@@ -26,8 +26,8 @@ License:        LGPL-2.1
 Group:          System/GUI/GNOME
 Url:            http://www.mono-project.com/GtkSharp
 Source:         http://ftp.gnome.org/pub/GNOME/sources/%{_name}/2.24/%{_name}-%{version}.tar.gz
-BuildRequires:  pkgconfig(gapi-2.0)
-BuildRequires:  pkgconfig(glade-sharp-2.0)
+BuildRequires:  pkgconfig(gapi-2.0) >= 2.12.40
+BuildRequires:  pkgconfig(glade-sharp-2.0) >= 2.12.40
 BuildRequires:  pkgconfig(gmodule-2.0)
 BuildRequires:  pkgconfig(gnome-vfs-2.0)
 BuildRequires:  pkgconfig(gtk+-2.0)
