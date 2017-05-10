@@ -19,8 +19,8 @@
 %define _name gnome-sharp
 
 Name:           gnome-sharp2
-Version:	2.24.3
-Release:	0.xamarin.3
+Version:	2.24.4
+Release:	0.xamarin.1
 Summary:        Mono bindings for GNOME
 License:        LGPL-2.1
 Group:          System/GUI/GNOME
