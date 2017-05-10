@@ -31,7 +31,7 @@ BuildRequires:  pkgconfig(glade-sharp-2.0)
 BuildRequires:  pkgconfig(gmodule-2.0)
 BuildRequires:  pkgconfig(gnome-vfs-2.0)
 BuildRequires:  pkgconfig(gtk+-2.0)
-BuildRequires:  pkgconfig(gtk-sharp-2.0)
+BuildRequires:  pkgconfig(gtk-sharp-2.0) >= 2.12.40
 BuildRequires:  pkgconfig(libgnomecanvas-2.0)
 BuildRequires:  pkgconfig(libgnomeui-2.0)
 BuildRequires:  pkgconfig(mono)
