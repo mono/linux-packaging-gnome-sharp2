@@ -93,7 +93,7 @@ export CFLAGS="%{optflags} -fno-strict-aliasing"
     --libexecdir=%{_prefix}/lib \
     --disable-static \
     --enable-debug
-make %{?_smp_mflags}
+make -j1
 
 %install
 %makeinstall
